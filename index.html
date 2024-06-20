@@ -320,45 +320,26 @@
 </div>
 
 <h2>Popular Events</h2>
-<div class="scrollableMenu">
-    <?php
-    // Define an array of event details
-    $events = array(
-        array(
-            'image' => 'IMG_0934-1-1024x631.jpg.webp',
-            'description' => 'UTM Convocation UTM-MOSTI Master of Professional Science Celebrates Second Cohort Graduation'
-        ),
-        array(
-            'image' => 'UTM_0164-1024x683.jpg',
-            'description' => 'Conference & Seminar AI Horizons: Decoding Malaysia’s Future with Zack Kass'
-        ),
-        array(
-            'image' => 'Featured-image-1024x576.jpg',
-            'description' => 'Kolej Tun Hussein Onn Waste to Wealth Hub: Impacts on the Sustainable Development Goals'
-        ),
-        array(
-            'image' => 'photo_2022-12-16_21-48-14-1024x768.jpg.webp',
-            'description' => 'No pain, no gain: KTHO Participated in the UTM Games & Bring Back Trophies!'
-        ),
-        array(
-            'image' => 'IMG_7779-1024x683.jpg.webp',
-            'description' => 'AIESEC Johor Bahru Celebrates a Successful Year and Presents Annual Report!!'
-        ),
-        array(
-            'image' => 'ssss.webp',
-            'description' => 'Kolej Tun Razak’s Blood Drive: A Gift for Life'
-        )
-    );
-
-    // Loop through the events array and output HTML for each event
-    foreach ($events as $event) {
-        echo '<div class="item">';
-        echo '<img src="' . $event['image'] . '">';
-        echo '<p>' . $event['description'] . '</p>';
-        echo '</div>';
-    }
-    ?>
-</div>
+    <div class="scrollableMenu">
+        <div class="item"><img src="IMG_0934-1-1024x631.jpg.webp">
+            <p> UTM Convocation UTM-MOSTI Master of Professional Science Celebrates Second Cohort Graduation</p>
+        </div>
+        <div class="item"><img src="UTM_0164-1024x683.jpg">
+            <p>Conference & Seminar AI Horizons: Decoding Malaysia’s Future with Zack Kass</p>
+        </div>
+        <div class="item"><img src="Featured-image-1024x576.jpg">
+            <p>Kolej Tun Hussein Onn Waste to Wealth Hub: Impacts on the Sustainable Development Goals</p>
+        </div>
+        <div class="item"><img src="photo_2022-12-16_21-48-14-1024x768.jpg.webp">
+            <p>No pain, no gain: KTHO Participated in the UTM Games & Bring Back Trophies!</p>
+        </div>
+        <div class="item"><img src="IMG_7779-1024x683.jpg.webp">
+            <p>AIESEC Johor Bahru Celebrates a Successful Year and Presents Annual Report!!</p>
+        </div>
+        <div class="item"><img src="ssss.webp">
+            <p> Kolej Tun Razak’s Blood Drive: A Gift for Life</p>
+        </div>
+    </div>
 
 
 <!-- The Modal -->
