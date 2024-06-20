@@ -366,17 +366,6 @@
     </div>
 </div>
 
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $name = htmlspecialchars($_POST['name']);
-    echo "<script>
-    document.getElementById('successMessage').innerText = 'Thank you, $name, for registering!';
-    document.getElementById('successMessage').style.display = 'block';
-    document.getElementById('registrationForm').style.display = 'none';
-    </script>";
-}
-?>
-
 <script>
     // JavaScript code for modal and form handling
     var modal = document.getElementById("myModal");
